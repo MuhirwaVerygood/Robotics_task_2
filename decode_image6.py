@@ -24,7 +24,7 @@ if decoded:
     cv2.waitKey(0)
     cv2.destroyAllWindows()
     # Save the annotated image
-    output_file = "decoded_maxicode.png"
+    output_file = "decoded_image6.png"
     cv2.imwrite(output_file, image)
     print(f"Annotated image saved as {output_file}")
 else:
